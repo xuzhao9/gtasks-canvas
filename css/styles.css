@@ -1,0 +1,41 @@
+html, body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 100%;
+}
+
+.header {
+    margin-top: 0px;
+    background-color: #dee7fe;
+    width: 100%;
+}
+
+.heading {
+    font-size: 140%;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.heading > .leftbar {
+    width: 10%;
+    float: left;
+    border-right-style: solid;
+    border-right-color: #dee7fe;
+    border-right-width: 4px;
+}
+
+.heading > .rightbar {
+}
+
+.viewer {
+    height: 100%;
+}
+
+.viewer > .leftbar {
+    height: 100%;
+}
+
+.viewer > .rightbar {
+    height: 100%;
+}
