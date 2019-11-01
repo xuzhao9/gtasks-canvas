@@ -17,7 +17,7 @@ html, body {
     padding-left: 30px;
 }
 
-.heading > .leftbar {
+.leftbar {
     width: 10%;
     float: left;
     border-right-style: solid;
@@ -25,7 +25,7 @@ html, body {
     border-right-width: 4px;
 }
 
-.heading > .rightbar {
+.rightbar {
 }
 
 .viewer {
