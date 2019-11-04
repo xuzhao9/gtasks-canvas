@@ -40,10 +40,7 @@ html, body {
 
 .downleftbar {
     height: 100%;
-    width: 170px;
-    float: left;
-    position: relative;
-    left: -20px;
+    width: 180px;
     border-right-style: solid;
     border-right-width: 4px;
     border-right-color: #eae9ee;
@@ -52,7 +49,9 @@ html, body {
 .downrightbar {
     float: left;
     position: relative;
+    top: -951px;
     left: 184px;
+    width: 1724px;
 }
 
 .downrightbar > .menubar {
@@ -61,5 +60,6 @@ html, body {
 }
 
 .downleftbar > .listheading {
-    padding-left: 0px;
+    position: relative;
+    top: 0px;
 }
