@@ -12,30 +12,56 @@ html, body {
 }
 
 .heading {
-    font-size: 140%;
+    font-size: 130%;
     font-weight: bold;
     padding-left: 30px;
 }
 
 .leftbar {
-    width: 10%;
+    width: 200px;
     float: left;
     border-right-style: solid;
     border-right-color: #dee7fe;
     border-right-width: 4px;
 }
 
+.newlist {
+    vertical-align: sub;
+}
+
 .rightbar {
+    margin-left: 200px;
+    overflow: hidden;
 }
 
 .viewer {
     height: 100%;
+    width: 100%;
+    clear: both;
 }
 
-.viewer > .leftbar {
+.downleftbar {
     height: 100%;
+    width: 170px;
+    float: left;
+    position: relative;
+    left: -20px;
+    border-right-style: solid;
+    border-right-width: 4px;
+    border-right-color: #eae9ee;
 }
 
-.viewer > .rightbar {
-    height: 100%;
+.downrightbar {
+    float: left;
+    position: relative;
+    left: 184px;
+}
+
+.downrightbar > .menubar {
+    width: 100%;
+    background-color: #dedede;
+}
+
+.downleftbar > .listheading {
+    padding-left: 0px;
 }
