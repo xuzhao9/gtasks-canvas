@@ -14,11 +14,11 @@ html, body {
 .heading {
     font-size: 130%;
     font-weight: bold;
-    padding-left: 30px;
+    padding-left: 190px;
 }
 
 .leftbar {
-    width: 200px;
+    width: 180px;
     float: left;
     border-right-style: solid;
     border-right-color: #dee7fe;
@@ -30,8 +30,6 @@ html, body {
 }
 
 .rightbar {
-    margin-left: 200px;
-    overflow: hidden;
 }
 
 .viewer {
