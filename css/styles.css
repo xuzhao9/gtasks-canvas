@@ -33,7 +33,7 @@ html, body {
 }
 
 .viewer {
-    height: 100%;
+    height: calc(100% - 40px);
     width: 100%;
     clear: both;
 }
@@ -48,10 +48,10 @@ html, body {
 
 .downrightbar {
     float: left;
-    position: relative;
-    top: -951px;
+    position: absolute;
+    top: 29px;
     left: 184px;
-    width: 1724px;
+    width: calc(100% - 184px);
 }
 
 .downrightbar > .menubar {
