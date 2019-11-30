@@ -63,3 +63,31 @@ html, body {
     position: relative;
     top: 0px;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.rowwrapper {
+    width: 62%;
+    height: 1.6em;
+    background-color: #fffed9;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #fadb82;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #fadb82;
+}
+
+.rowhandle {
+    position: relative;
+    top: 3px;
+}
+
+.tasktext {
+    width: 90%;
+    background-color: transparent;
+    border-style: none;
+}
