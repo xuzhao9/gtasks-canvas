@@ -69,8 +69,7 @@ html, body {
     flex-direction: column;
 }
 
-.rowwrapper {
-    width: 62%;
+.rowwrapper.focus {
     height: 1.6em;
     background-image: linear-gradient(to right, rgba(255,254,217,1), rgba(255,254,217,0.5));
     border-top-style: solid;
@@ -79,6 +78,11 @@ html, body {
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: #fadb82;
+}
+
+.rowwrapper {
+    width: 62%;
+    height: 1.8em;
 }
 
 .rowhandle {
@@ -90,4 +94,9 @@ html, body {
     width: 90%;
     background-color: transparent;
     border-style: none;
+}
+
+.jobdone {
+    text-decoration: line-through;
+    color: grey;
 }
