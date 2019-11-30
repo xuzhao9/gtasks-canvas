@@ -70,7 +70,6 @@ html, body {
 }
 
 .rowwrapper.focus {
-    height: 1.6em;
     background-image: linear-gradient(to right, rgba(255,254,217,1), rgba(255,254,217,0.5));
     border-top-style: solid;
     border-top-width: 1px;
@@ -82,7 +81,13 @@ html, body {
 
 .rowwrapper {
     width: 62%;
-    height: 1.8em;
+    height: 1.6em;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: transparent;
 }
 
 .rowhandle {
