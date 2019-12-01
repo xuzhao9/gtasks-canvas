@@ -137,7 +137,11 @@ function addElementKBAction(txt) {
             // remove the entry
             deleteRow(txt);
             event.preventDefault(); // Don't delete the last char on the previous row
-        } else if(event.keyCode === 9) { // TODO: hierarchy, for now just disable default
+        } else if(event.shiftKey && event.keyCode === 9) { // TODO: 'Shift + Tab'
+            moveLeft(txt);
+            event.preventDefault();
+        } else if(event.keyCode === 9) { // TODO: 'Tab'
+            moveRight(txt);
             event.preventDefault();
         }
     });
